@@ -12,7 +12,7 @@
   <h2>lastMutation: {{ lastMutation }}</h2>
   <h2>lastRandomInt: {{ lastRandomInt }}</h2>
 
-  <h2 >Direct getters: {{ $store.getters.squareCount }}</h2>
+  <h2 >Direct getters: {{ $store.getters['counter/squareCount'] }}</h2>
 </template>
 
 <script>
